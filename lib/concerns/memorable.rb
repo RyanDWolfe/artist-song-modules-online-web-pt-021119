@@ -10,10 +10,6 @@ module Memorable
       self.all.count
     end
 
-    def all
-      @@artists
-    end
-
   end
 
   module InstanceMethods
